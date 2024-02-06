@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Onest Regular';
+    src:
+    url('Onest-Regular.woff') format('woff'),
+    url('Onest-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*@font-face {*/
+/*    font-family: 'Suisse Intl';*/
+/*    src: url('SuisseIntl-Regular.eot');*/
+/*    src: url('SuisseIntl-Regular.eot?#iefix') format('embedded-opentype'),*/
+/*        url('SuisseIntl-Regular.woff2') format('woff2'),*/
+/*        url('SuisseIntl-Regular.woff') format('woff'),*/
+/*        url('SuisseIntl-Regular.ttf') format('truetype'),*/
+/*        url('SuisseIntl-Regular.svg#SuisseIntl-Regular') format('svg');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*    font-display: swap;*/
+/*}*/
+

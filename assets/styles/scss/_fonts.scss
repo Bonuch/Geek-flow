@@ -1,0 +1,13 @@
+/*
+@font-face {
+  font-family: 'Open Sans';
+  src: url(path/to/file) format(Example: 'truetype' or 'opentype' depending on the file extension of your font);
+}*/
+
+@font-face {
+  font-family: "Onest Regular";
+  src:
+  url("/fonts/Onest-Regular.woff") format("woff"),
+  url("/fonts/Onest-Regular.ttf") format("truetype");
+  font-weight: 400;
+}

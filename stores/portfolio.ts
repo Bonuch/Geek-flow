@@ -1,0 +1,140 @@
+import {acceptHMRUpdate, defineStore} from "pinia";
+
+export const usePortfolioStore = defineStore({
+    id: 'p-store',
+    state: () => ({
+        portfolio: [
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Большо-о-о-ой проект <br/> и самый важный',
+                shortDescription: 'Брендинг и дизайн сайта компании, которая предоставляет облачное хранилище и сервера для юридических, частных лиц и компаний в России и СНГ',
+                imgLink: '/tiles/plug_6.jpeg',
+                slug: 'test',
+                color: 'black',
+            },
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Lightning cloud',
+                shortDescription: 'Брендинг и дизайн сайта компании, которая предоставляет облачное хранилище и сервера для юридических, частных лиц и компаний в России и СНГ',
+                imgLink: '/tiles/plug_1.jpeg',
+                slug: 'test',
+                color: 'white',
+            },
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Lightning cloud',
+                shortDescription: 'Брендинг и дизайн сайта компании, которая предоставляет облачное хранилище и сервера для юридических, частных лиц и компаний в России и СНГ',
+                imgLink: '/tiles/plug_2.jpeg',
+                slug: 'test',
+                color: 'white',
+            },
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Lightning cloud',
+                shortDescription: 'Брендинг и дизайн сайта компании, которая предоставляет облачное хранилище и сервера для юридических, частных лиц и компаний в России и СНГ',
+                imgLink: '/tiles/plug_3.jpeg',
+                slug: 'test',
+                color: 'white',
+            },
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Lightning cloud',
+                shortDescription: 'Брендинг и дизайн сайта компании, которая предоставляет облачное хранилище и сервера для юридических, частных лиц и компаний в России и СНГ',
+                imgLink: '/tiles/plug_1.jpeg',
+                slug: 'test',
+                color: 'white',
+            },
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Lightning cloud',
+                shortDescription: 'Брендинг и дизайн сайта компании, которая предоставляет облачное хранилище и сервера для юридических, частных лиц и компаний в России и СНГ',
+                imgLink: '/tiles/plug_4.jpeg',
+                slug: 'test',
+                color: 'white',
+            },
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Lightning cloud',
+                shortDescription: 'Брендинг и дизайн сайта компании, которая предоставляет облачное хранилище и сервера для юридических, частных лиц и компаний в России и СНГ',
+                imgLink: '/tiles/plug_5.jpeg',
+                slug: 'test',
+                color: 'black',
+            },
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Lightning cloud',
+                shortDescription: 'SEO продвижение компании Lightning Cloud',
+                imgLink: '/tiles/plug_7.jpeg',
+                slug: 'test',
+                color: 'white',
+            },
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Lightning cloud',
+                shortDescription: 'SEO продвижение компании Lightning Cloud',
+                imgLink: '/tiles/plug_8.jpeg',
+                slug: 'test',
+                color: 'white',
+            },
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Lightning cloud',
+                shortDescription: 'SEO продвижение компании Lightning Cloud',
+                imgLink: '/tiles/plug_9.jpeg',
+                slug: 'test',
+                color: 'white',
+            },
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Lightning cloud',
+                shortDescription: 'SEO продвижение компании Lightning Cloud',
+                imgLink: '/tiles/plug_10.jpeg',
+                slug: 'test',
+                color: 'white',
+            },
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Lightning cloud',
+                shortDescription: 'SEO продвижение компании Lightning Cloud',
+                imgLink: '/tiles/plug_10.jpeg',
+                slug: 'test',
+                color: 'white',
+            },
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Lightning cloud',
+                shortDescription: 'SEO продвижение компании Lightning Cloud',
+                imgLink: '/tiles/plug_10.jpeg',
+                slug: 'test',
+                color: 'white',
+            },
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Lightning cloud',
+                shortDescription: 'SEO продвижение компании Lightning Cloud',
+                imgLink: '/tiles/plug_10.jpeg',
+                slug: 'test',
+                color: 'white',
+            },
+            {
+                tags: [{text: 'сайт', link: '#'}, {text: 'брендинг', link: '#'}, {text: 'IT', link: '#'},],
+                title: 'Lightning cloud',
+                shortDescription: 'SEO продвижение компании Lightning Cloud',
+                imgLink: '/tiles/plug_10.jpeg',
+                slug: 'test',
+                color: 'white',
+            },
+        ],
+    }),
+    getters: {
+        getPortfolioOne: state => state.portfolio[0],
+        getPortfolioSix: state => state.portfolio,
+        getPortfolioOther: state => state.portfolio,
+        getPortfolio: state => state.portfolio,
+    },
+    actions: {}
+})
+
+if (import.meta.hot) {
+    import.meta.hot.accept(acceptHMRUpdate(usePortfolioStore, import.meta.hot))
+}
